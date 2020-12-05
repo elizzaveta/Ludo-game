@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div id = "tips">roll the cube</div>
+<div class = all_field>
+    <div class = "board">
+        <div class = "start comp_start">
+            <div class="start_dot st_d_comp"  id = "00000"></div>
+            <div class="start_dot st_d_comp" id = "000000"></div>
+            <div class="start_dot st_d_comp" id = "0000000"></div>
+            <div class="start_dot st_d_comp" id = "00000000"></div>
+        </div>
+
+
+        <div class="dots_field">
+            <div class="dots_top">
+                <div class = "board_dot board_dot1" id = "6" onclick="move_the_user_stone(id)"></div>
+                <div class = "board_dot board_dot2" id = "7" onclick="move_the_user_stone(id)"></div>
+                <div class = "board_dot board_dot3" id = "8" onclick="move_the_user_stone(id)"></div>
+                <div class = "board_dot board_dot4" id = "9" onclick="move_the_user_stone(id)"></div>
+                <div class = "board_dot board_dot5" id = "10" onclick="move_the_user_stone(id)"></div>
+            </div>
+            <div class="dots_left">
+                <div class = "board_dot board_dot6" id = "5" onclick="move_the_user_stone(id)"></div>
+                <div class = "board_dot board_dot7" id = "4" onclick="move_the_user_stone(id)"></div>
+                <div class = "board_dot board_dot8" id = "3" onclick="move_the_user_stone(id)"></div>
+                <div class = "board_dot board_dot9" id = "2" onclick="move_the_user_stone(id)"></div>
+                <div class = "board_dot board_dot10" id = "1" onclick="move_the_user_stone(id)"></div>
+            </div>
+            <div class="dots_right">
+                <div class = "board_dot board_dot11" id = "11" onclick="move_the_user_stone(id)"></div>
+                <div class = "board_dot board_dot12" id = "12" onclick="move_the_user_stone(id)"></div>
+                <div class = "board_dot board_dot13" id = "13" onclick="move_the_user_stone(id)"></div>
+                <div class = "board_dot board_dot14" id = "14" onclick="move_the_user_stone(id)"></div>
+                <div class = "board_dot board_dot15" id = "15" onclick="move_the_user_stone(id)"></div>
+            </div>
+            <div class="dots_bottom">
+                <div class = "board_dot board_dot16" id = "20" onclick="move_the_user_stone(id)"></div>
+                <div class = "board_dot board_dot17" id = "19" onclick="move_the_user_stone(id)"></div>
+                <div class = "board_dot board_dot18" id = "18" onclick="move_the_user_stone(id)"></div>
+                <div class = "board_dot board_dot19" id = "17" onclick="move_the_user_stone(id)"></div>
+                <div class = "board_dot board_dot20" id = "16" onclick="move_the_user_stone(id)"></div>
+            </div>
+            <div class="dots_diagonal">
+                <div class = "board_dot board_dot21" id = "21"></div>
+                <div class = "board_dot board_dot22" id = "22"></div>
+                <div class = "board_dot board_dot23" id = "23"></div>
+                <div class = "board_dot board_dot24" id = "24"></div>
+                <div class = "board_dot board_dot25" id = "28"></div>
+                <div class = "board_dot board_dot26" id = "27"></div>
+                <div class = "board_dot board_dot27" id = "26"></div>
+                <div class = "board_dot board_dot28" id = "25"></div>
+            </div>
+
+        </div>
+
+
+        <div class = "start my_start">
+            <div class="start_dot st_d_my" id="0" onclick="move_the_user_stone(id)"></div>
+            <div class="start_dot st_d_my" id="00" onclick="move_the_user_stone(id)"></div>
+            <div class="start_dot st_d_my" id="000" onclick="move_the_user_stone(id)"></div>
+            <div class="start_dot st_d_my" id="0000" onclick="move_the_user_stone(id)"></div>
+        </div>
+
+    </div>
+    <div class = "cube" onclick="roll_the_cube(1)">
+        <div class = "cube1" id = "cube1"></div>
+        <div class = "cube2" id = "cube2"></div>
+        <div class = "cube3" id = "cube3"></div>
+        <div class = "cube4" id = "cube4"></div>
+        <div class = "cube5" id = "cube5"></div>
+        <div class = "cube6" id = "cube6"></div>
+        <div class = "cube7" id = "cube7"></div>
+        <div class = "cube8" id = "cube8"></div>
+        <div class = "cube9" id = "cube9"></div>
+    </div>
+
+</div>
+</body>
+</html>
