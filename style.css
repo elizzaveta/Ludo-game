@@ -41,7 +41,10 @@
 }
 .cube8{
     visibility: hidden;
- }
+}
+.cube5{
+    visibility: hidden;
+}
 .start{
     height: 88px;
     width: 88px;
@@ -171,6 +174,16 @@
     background: #fef7d0;
 }
 
+.game_name_top{
+    text-align: center;
+    background: aliceblue;
+    margin-bottom: 5px;
+}
+.game_over{
+    visibility: hidden;
+    text-align: center;
+    background: aliceblue;
+}
 
 
 
